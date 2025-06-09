@@ -1,0 +1,1 @@
+DEFAULT_CATEGORIES = ["Food", "Transport", "Utilities", "Entertainment", "Health"]
