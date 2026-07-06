@@ -1,8 +1,7 @@
 from sqlalchemy import create_engine
-from db.user import Base, User
-from db.bill import Bill
-from db.category import Category
-from db.database import DATABASE_URL
+
+from db.database import Base, DATABASE_URL
+from db import file, folder  # noqa: F401
 
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
