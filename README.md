@@ -1,5 +1,4 @@
-# devot_application
-Budget app
+# How to start
 
-uvicorn main:app --reload
-D:\Devot\devot_application\budget-app>sqlite3 my_database.db
+uvicorn main:app --reload  
+cd file_manager_app>sqlite3 my_database.db  

@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List, Optional
 from sqlalchemy.orm import Session
-from file_manager_app.db.folder import Folder as DBFolder
-from file_manager_app.api_models.folder import Folder, FolderCreate, FolderUpdate
-from file_manager_app.db.database import get_db
+from db.folder import Folder as DBFolder
+from api_models.folder import Folder, FolderCreate, FolderUpdate
+from db.database import get_db
 
 router = APIRouter(prefix="/folders", tags=["folders"])
 
